@@ -1,6 +1,7 @@
 console.log("dd")
 console.log(parseInt("01010011", 2))
 
+const b =2
 const arr = []
 arr[100] = 1
 console.log(arr)
