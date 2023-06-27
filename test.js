@@ -35,3 +35,4 @@ console.log(getRandStr("HOEEL,WORLsgergeD.sfger"))
 
 console.log("aabb")
 console.log("222")
+console.log("1111")
