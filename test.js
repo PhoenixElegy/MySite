@@ -32,3 +32,5 @@ const getRandStr = function (str) {
 }
 
 console.log(getRandStr("HOEEL,WORLsgergeD.sfger"))
+
+console.log("aabb")
