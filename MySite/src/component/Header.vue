@@ -3,7 +3,6 @@ import { ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { Locale } from '@/eunms'
 
-
 const { t } = useI18n()
 const { locale } = useI18n()
 const headerlang = ref<string>("zh-CN")
