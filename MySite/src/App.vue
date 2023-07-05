@@ -1,22 +1,32 @@
 <script setup lang="ts">
 import Header from '@/component/Header.vue'
+import Main from '@/component/Main.vue'
 </script>
 
 <template>
-  <Header></Header>
+  <div class="mysite">
+    <div class="mysite-header">
+      <Header></Header>
+    </div>
+    <div class="mysite-main">
+      <Main></Main>
+    </div>
+  </div>
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.mysite {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  height: 100vh;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+
+.mysite-main {
+  flex: 1 1 auto;
 }
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+
+.mysite-header{
+  width: 100%;
 }
 </style>

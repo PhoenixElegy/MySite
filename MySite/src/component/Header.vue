@@ -42,4 +42,8 @@ const changeLang = function () {
   cursor: pointer;
   color: black;
 }
+
+.header-user-text{
+  line-height: 3rem;
+}
 </style>
