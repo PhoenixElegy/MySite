@@ -7,6 +7,12 @@ const router = useRouter();
 
 const data = ref(Menu)
 const menu = ref("aaa")
+router.push({
+    path: `/README`
+    //path: `/MarkdownAll`
+  })
+
+
 const mainpages = function (route: string) {
   console.log(route)
   menu.value = route

@@ -20,6 +20,11 @@ export const Menu: MenuItem[] = [
         "id": 13,
         "name": "Resolution-px...md",
         "route": "Resolution-px"
+      },
+      {
+        "id": 14,
+        "name": "i18n.md",
+        "route": "i18n"
       }
     ]
   },

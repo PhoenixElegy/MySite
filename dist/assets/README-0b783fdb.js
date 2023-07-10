@@ -1,0 +1,1 @@
+import{d as t,r as o,o as n,c as s,a,u as r}from"./index-34d20d4c.js";const c="# MySite",_={class:"mdlist"},l=t({__name:"README",setup(m){return(p,d)=>{const e=o("v-md-preview");return n(),s("div",_,[a(e,{text:r(c)},null,8,["text"])])}}});export{l as default};

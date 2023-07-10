@@ -1,0 +1,1 @@
+import{m as t}from"./Meta-0284a393.js";import{d as n,r as s,o as r,c as a,a as m,u as p}from"./index-34d20d4c.js";const c={class:"mdlist"},f=n({__name:"MarkdownAll",props:{props:{type:String}},setup(e){return console.log(e.props),(_,d)=>{const o=s("v-md-preview");return r(),a("div",c,[m(o,{text:p(t)},null,8,["text"])])}}});export{f as default};

@@ -1,0 +1,1 @@
+import{m as t}from"./Meta-0284a393.js";import{d as o,r as n,o as s,c as a,a as r,u as m}from"./index-34d20d4c.js";const c={class:"mdlist"},u=o({__name:"Meta",setup(_){return(p,d)=>{const e=n("v-md-preview");return s(),a("div",c,[r(e,{text:m(t)},null,8,["text"])])}}});export{u as default};

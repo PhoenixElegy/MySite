@@ -22,6 +22,16 @@ const routes: Array<RouteRecordRaw> = [
       name: 'MarkdownAll',
       component: () => import('../pages/MarkdownAll.vue'),
     },
+    {
+      path: '/i18n',
+      name: 'i18n',
+      component: () => import('../pages/i18n.vue'),
+    },    
+    {
+      path: '/README',
+      name: 'README',
+      component: () => import('../pages/README.vue'),
+    },
 ]
 
 const router = createRouter({
